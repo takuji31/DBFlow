@@ -10,7 +10,7 @@ import java.lang.annotation.Target;
  * that gets called back when changed. The method must return a Uri or an array of Uri[] to notify changed on
  * the content provider.
  */
-@Retention(RetentionPolicy.SOURCE)
+@Retention(RetentionPolicy.CLASS)
 @Target(ElementType.METHOD)
 public @interface Notify {
 

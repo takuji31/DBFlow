@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
  * Description: Marks the field as unique, meaning its value cannot be repeated. It is, however,
  * NOT a primary key.
  */
-@Retention(RetentionPolicy.SOURCE)
+@Retention(RetentionPolicy.CLASS)
 @Target(ElementType.FIELD)
 public @interface Unique {
 

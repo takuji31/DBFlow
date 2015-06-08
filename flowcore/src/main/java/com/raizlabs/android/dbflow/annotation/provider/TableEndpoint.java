@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
  * Description: Defines an endpoint that gets placed inside of a {@link com.raizlabs.android.dbflow.annotation.provider.ContentProvider}
  */
 @Target(ElementType.TYPE)
-@Retention(RetentionPolicy.SOURCE)
+@Retention(RetentionPolicy.CLASS)
 public @interface TableEndpoint {
 
     /**

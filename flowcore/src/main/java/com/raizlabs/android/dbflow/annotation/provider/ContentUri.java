@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
  * Description: Defines the URI for a content provider.
  */
 @Target({ElementType.FIELD, ElementType.METHOD})
-@Retention(RetentionPolicy.SOURCE)
+@Retention(RetentionPolicy.CLASS)
 public @interface ContentUri {
 
     /**

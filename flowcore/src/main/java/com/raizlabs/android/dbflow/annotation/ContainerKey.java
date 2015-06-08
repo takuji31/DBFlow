@@ -12,7 +12,7 @@ import java.lang.annotation.Target;
  *  enables different key than column name.
  */
 @Target(ElementType.FIELD)
-@Retention(RetentionPolicy.SOURCE)
+@Retention(RetentionPolicy.CLASS)
 public @interface ContainerKey {
 
     /**

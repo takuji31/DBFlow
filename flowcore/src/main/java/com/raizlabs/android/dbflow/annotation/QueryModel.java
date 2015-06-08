@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
  * Description: Marks a Model class as NOT a {@link Table}, but generates code for retrieving data from a
  * generic query
  */
-@Retention(RetentionPolicy.SOURCE)
+@Retention(RetentionPolicy.CLASS)
 @Target(ElementType.TYPE)
 public @interface QueryModel {
 

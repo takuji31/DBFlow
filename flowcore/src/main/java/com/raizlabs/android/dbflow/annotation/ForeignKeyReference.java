@@ -10,7 +10,7 @@ import java.lang.annotation.RetentionPolicy;
  * column type of the referenced column. By using a field as a Model object, we will ensure the same types are used. In future
  * versions I hope to remove the columnType and directly use the foreign column's type.
  */
-@Retention(RetentionPolicy.SOURCE)
+@Retention(RetentionPolicy.CLASS)
 public @interface ForeignKeyReference {
 
     /**

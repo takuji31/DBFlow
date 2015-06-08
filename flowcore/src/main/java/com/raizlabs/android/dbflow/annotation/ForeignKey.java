@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 /**
  * Description:
  */
-@Retention(RetentionPolicy.SOURCE)
+@Retention(RetentionPolicy.CLASS)
 @Target(ElementType.FIELD)
 public @interface ForeignKey {
 

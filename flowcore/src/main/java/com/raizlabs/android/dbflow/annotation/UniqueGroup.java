@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
  * Description:
  */
 @Target(ElementType.ANNOTATION_TYPE)
-@Retention(RetentionPolicy.SOURCE)
+@Retention(RetentionPolicy.CLASS)
 public @interface UniqueGroup {
 
     /**

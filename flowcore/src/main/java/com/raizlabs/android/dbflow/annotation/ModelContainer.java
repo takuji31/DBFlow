@@ -10,7 +10,7 @@ import java.lang.annotation.Target;
  * Description: Will generate a $Container class definition for the Model class. It is required when using
  * ModelContainers, that we mark every contained class with this annotation so we can handle them properly.
  */
-@Retention(RetentionPolicy.SOURCE)
+@Retention(RetentionPolicy.CLASS)
 @Target(ElementType.TYPE)
 public @interface ModelContainer {
 }

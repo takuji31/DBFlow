@@ -10,7 +10,7 @@ import java.lang.annotation.Target;
  * Description: Marks a class as being a TypeConverter. A type converter will turn a non-model, non-SQLiteTyped class into
  * a valid database type.
  */
-@Retention(RetentionPolicy.SOURCE)
+@Retention(RetentionPolicy.CLASS)
 @Target(ElementType.TYPE)
 public @interface TypeConverter {
 }

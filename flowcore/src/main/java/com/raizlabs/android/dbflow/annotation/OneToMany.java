@@ -12,7 +12,7 @@ import java.util.List;
  * associated method when the
  */
 @Target(ElementType.METHOD)
-@Retention(RetentionPolicy.SOURCE)
+@Retention(RetentionPolicy.CLASS)
 public @interface OneToMany {
 
     /**

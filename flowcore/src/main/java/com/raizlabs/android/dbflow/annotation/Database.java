@@ -18,7 +18,7 @@ import java.lang.annotation.Target;
  * </p>
  */
 @Target(ElementType.TYPE)
-@Retention(RetentionPolicy.SOURCE)
+@Retention(RetentionPolicy.CLASS)
 public @interface Database {
 
     /**

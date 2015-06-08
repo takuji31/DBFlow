@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
  * Description: Defines a Content Provider that gets generated.
  */
 @Target(ElementType.TYPE)
-@Retention(RetentionPolicy.SOURCE)
+@Retention(RetentionPolicy.CLASS)
 public @interface ContentProvider {
 
     /**

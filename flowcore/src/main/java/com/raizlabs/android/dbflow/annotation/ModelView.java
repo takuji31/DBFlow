@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
  * Author: andrewgrosner
  * Description: Marks a class as being an SQL VIEW definition. It must extend BaseModelView.
  */
-@Retention(RetentionPolicy.SOURCE)
+@Retention(RetentionPolicy.CLASS)
 @Target(ElementType.TYPE)
 public @interface ModelView {
 

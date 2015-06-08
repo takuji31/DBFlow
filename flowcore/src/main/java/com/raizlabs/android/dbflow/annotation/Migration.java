@@ -10,7 +10,7 @@ import java.lang.annotation.Target;
  * Description: Marks a Migration class to be included in DB construction. The class using this annotation
  * must implement the Migration interface.
  */
-@Retention(RetentionPolicy.SOURCE)
+@Retention(RetentionPolicy.CLASS)
 @Target(ElementType.TYPE)
 public @interface Migration {
 

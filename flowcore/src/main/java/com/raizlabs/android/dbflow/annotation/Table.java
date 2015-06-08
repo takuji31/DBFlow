@@ -11,7 +11,7 @@ import java.lang.annotation.Target;
  * This will generate a $Table and $Adapter class. The $Table class generates static final column name variables to reference in queries.
  * The $Adapter class defines how to retrieve and store this object as well as other methods for acting on model objects in the database.
  */
-@Retention(RetentionPolicy.SOURCE)
+@Retention(RetentionPolicy.CLASS)
 @Target(ElementType.TYPE)
 public @interface Table {
 
